@@ -3,6 +3,7 @@
 export default {
   data() {
       return {
+        image: "public/images/vinicius-amnx-amano-dbOV1qSiL-c-unsplash (1).jpg",
         message: "Hello World!",
         product: 'Sweets',
         url: 'https://www.vuejs.org/',
@@ -15,14 +16,14 @@ export default {
                 itemName : "Sweets",
                 itemPrice : 5,
                 itemQuantity : 30,
-                itemImage: '/customerbox-aXq1oCCjlVM-unsplash.jpg'
+                itemImage: 'public/images/customerbox-aXq1oCCjlVM-unsplash.jpg'
             },
             {
                 itemNumber: 27466,
                 itemName : "Lollipop",
                 itemPrice : 10,
                 itemQuantity : 4,
-                itemImage: 'jamie-albright-AHF_ZktTL6Q-unsplash.jpg'
+                itemImage: 'public/images/jamie-albright-AHF_ZktTL6Q-unsplash (1).jpg'
             }
         ],
         totalStock: 100
